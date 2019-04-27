@@ -1,0 +1,9 @@
+.navbarA{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item{
+    margin-left: 1em;
+}
+
