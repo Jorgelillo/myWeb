@@ -1,8 +1,23 @@
-h1{
+/* h1{
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 p {
     text-align: justify;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .image {
+        max-height: 75%;
+        height: 60%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .image {
+        width: 75%;
+    }
 }

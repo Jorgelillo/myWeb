@@ -1,9 +1,78 @@
-.navbarA{
+.navbarA {
     display: flex;
     justify-content: flex-end;
 }
 
-.nav-item{
+.nav-item {
     margin-left: 1em;
 }
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 2000px) and (min-width: 900px) {
+    .icons {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+    .nav-item {
+        margin-left: 1.2em;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .icons {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-item {
+        margin-left: 0.5em;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .icons {
+        padding: 1em;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .nav-item {
+        margin-left: 0.5em;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .icons {
+        margin-left: 15px;
+        padding: 1em; 
+    }
+
+    .main {
+        display: none;
+    }
+
+}
+
+
 
