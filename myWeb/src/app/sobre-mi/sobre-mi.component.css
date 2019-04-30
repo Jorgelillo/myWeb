@@ -1,13 +1,13 @@
-/* h1{
-    margin-left: auto;
-    margin-right: auto;
-} */
-
 p {
     text-align: justify;
 }
 
-
+.main {
+    padding: 25px;
+}
+.sector > .row {
+    padding: 15px;
+}
 
 @media only screen and (max-width: 600px) {
     .image {
