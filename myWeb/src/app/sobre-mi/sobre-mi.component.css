@@ -11,8 +11,8 @@ p {
 
 @media only screen and (max-width: 600px) {
     .image {
-        max-height: 75%;
-        height: 60%;
+        /* max-height: 75%; */
+        height: 15em;
     }
 }
 
